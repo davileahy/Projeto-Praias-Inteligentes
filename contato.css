@@ -1,0 +1,23 @@
+body{
+    background-image:url(fundo_praias.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #121212;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body img {
+    filter: invert()
+}
+
+.laivai {
+    text-align: center;
+    padding-top: 150px;
+}
+

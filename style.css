@@ -1,0 +1,86 @@
+header {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header nav{
+    font-size: 25px;
+}
+
+header h1{
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+header strong {
+    color: #E0A545;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header nav li{
+    margin-inline: 80px;
+}
+
+a {
+    color: white;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: url(foto_maceio.png);
+    
+}
+
+body h2{
+    text-align: center;
+    padding-top: 350px;
+    font-size: 25px;
+}
+
+.search {
+    display: relative;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+    background-image: linear-gradient(to right, #E9106C, #F7A23F);
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.search input, label {
+    position: relative;
+    font-size: 25px;
+    border-radius: 25px;
+    border-style: none;
+    background-image: linear-gradient(to right, #E9106C, #F7A23F);
+}
+
+.search input {
+    padding: 50px;
+}
+
+.search label {
+    padding: 0px;
+}
+
+.selecaoPraias{
+    text-align: center;
+}
+
+.selecaoPraias img {
+    transition: 0.5s;
+}
+
+.selecaoPraias img:hover {
+    transition: 0.5s;
+    transform: translateY(-20px);
+}
